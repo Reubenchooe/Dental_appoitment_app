@@ -1,0 +1,124 @@
+.bottom-navbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+  }
+  
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-image {
+    width: 30px;  /* Set the width of the image */
+    height: auto; /* Adjust the height to keep the aspect ratio */
+  }
+
+  .icon {
+    font-size: 35px;
+  }
+  
+  p {
+    margin: 0;
+    font-size: 12px;
+  }
+  
+  /* Add hover effect (optional) */
+  /* .nav-item:hover {
+    color: #81D4F4;
+    transition: color 0.3s;
+  } */
+
+
+.nav-item1 {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.nav-link1 {
+  display: inline-block;
+  padding: 10px;
+  color: #333; /* Default icon color */
+  text-decoration: none;
+  font-size: 24px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-link1:hover {
+  background-color: #81D4F4;
+  padding:20px;
+  padding-left: 70px; 
+  padding-right: 70px;/* Hover background color */
+  width: 33.3%;
+}
+
+.nav-item2 {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.nav-link2 {
+  display: inline-block;
+  padding: 10px;
+  color: #333; /* Default icon color */
+  text-decoration: none;
+  font-size: 24px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-link2:hover {
+  background-color: #81F4A5;
+  padding:20px;
+  padding-left: 70px; 
+  padding-right: 70px;/* Hover background color */
+}
+
+.nav-item3 {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.nav-link3 {
+  display: inline-block;
+  padding: 10px;
+  color: #333; /* Default icon color */
+  text-decoration: none;
+  font-size: 24px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-link3:hover {
+  background-color: #81AFF4;
+  padding:20px;
+  padding-left: 70px; 
+  padding-right: 70px;/* Hover background color */
+  width: 33.3%;
+}
+
+.active-link1 {
+  background-color: #3ADFAE; /* Active background color */
+  color: white;
+  padding: 10px; /* Active icon color */
+}
+
+.active-link2 {
+  background-color: #3ADFAE; /* Active background color */
+  color: white;
+  padding: 10px; /* Active icon color */
+}
+  
+.active-link3{
+  background-color: #3ADFAE; /* Active background color */
+  color: white;
+  padding: 10px; /* Active icon color */
+}
+  
+  

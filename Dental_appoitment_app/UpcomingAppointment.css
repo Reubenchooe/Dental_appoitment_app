@@ -1,0 +1,14 @@
+.upcoming-appointments {
+    font-family: 'Roboto', sans-serif; /* Use the Roboto font */
+    font-weight: 700; /* Bold weight */
+    /* text-align: center; Center text horizontally */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flexbox for centering */
+    /* justify-content: center; /* Center horizontally */
+    /* align-items: center; Center vertically  */
+    
+  }
+  
+  h2 {
+    margin: 0; /* Remove default margin on h2 */
+  }
